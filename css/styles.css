@@ -7594,9 +7594,23 @@ button.bg-dark:focus {
   margin-right: 3rem !important;
 }
 
+.ul-c5 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  display: inline;
+  }
+
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+}
+
+.mgb-5 {
+  margin-bottom: 3rem !important;
+  text-align: left;
+
 }
 
 .ml-5,
@@ -10124,7 +10138,7 @@ h3 {
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
-  top: 0;
+  top: 100;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
